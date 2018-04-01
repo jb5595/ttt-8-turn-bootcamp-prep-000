@@ -5,6 +5,11 @@ def turn(board)
   input = get.strip
   input_to_index(input)
 if valid_move(board,index)
+  move(board,index,character)
+  display_board
+else
+  turn(board)
+end
 end 
 
 def valid_move?(board, index)
