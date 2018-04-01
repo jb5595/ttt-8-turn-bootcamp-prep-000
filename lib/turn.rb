@@ -2,7 +2,7 @@
 
 def turn
   until valid_move
-  puts "Where would you like to go?"
+  puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
   end
