@@ -30,3 +30,13 @@ def display_board(board)
 end
 
 
+
+def input_to_index(input)
+  input_int = input.to_i
+  input_int = input_int-1;
+end
+
+def move(board, index, character = "X")
+  board[index] = character;
+end
+
